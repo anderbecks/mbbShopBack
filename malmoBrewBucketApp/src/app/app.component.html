@@ -1,0 +1,26 @@
+
+
+  <div class="container">
+    <div class="row" *ngFor="let product of product">
+      <div class="col bottle-image">
+      
+      </div>
+      <div class="col cos-back"  >
+        <h1>{{product.name}}</h1>
+        <h3>{{product.description}}</h3>
+        <p>{{product.price}} SEK</p>
+        
+        <div class="input-group mb-3 w-25">
+          <button  class="btn btn-danger" type="button" id="min-button" (click)="sum('min')">-</button>
+          <input value="{{quantity}}" type="number" id="counter" class="form-control" placeholder="" aria-describedby="button-addon1">
+          <button class="btn btn-success" (click)="sum('plus')">+</button>
+        </div>
+        <p>Stock: {{product.stockBalance}}</p>
+        
+        
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 

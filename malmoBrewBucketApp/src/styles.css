@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.cos-back{
+  
+    
+    background-repeat: no-repeat;
+  
+    background-position: center;
+    padding-top: 10%;
+}
+
+.bottle-image{
+    background-image: url("src\assets\images\bbottle.png");
+    height: 600px;
+
+}
